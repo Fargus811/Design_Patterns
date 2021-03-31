@@ -1,4 +1,4 @@
-package main.java.com.sergeev.structural_pattern.wrapper.square;
+package main.java.com.sergeev.structural_pattern.adapter.square;
 
 /**
  * КвадратныеКолышки несовместимы с КруглымиОтверстиями (они остались в проекте

@@ -1,4 +1,4 @@
-package main.java.com.sergeev.structural_pattern.wrapper.round;
+package main.java.com.sergeev.structural_pattern.adapter.round;
 
 /**
  * КруглоеОтверстие совместимо с КруглымиКолышками.

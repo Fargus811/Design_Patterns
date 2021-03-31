@@ -1,7 +1,7 @@
-package main.java.com.sergeev.structural_pattern.wrapper.adapter;
+package main.java.com.sergeev.structural_pattern.adapter.adapter;
 
-import main.java.com.sergeev.structural_pattern.wrapper.round.RoundPeg;
-import main.java.com.sergeev.structural_pattern.wrapper.square.SquarePeg;
+import main.java.com.sergeev.structural_pattern.adapter.round.RoundPeg;
+import main.java.com.sergeev.structural_pattern.adapter.square.SquarePeg;
 
 /**
  * Адаптер позволяет использовать КвадратныеКолышки и КруглыеОтверстия вместе.

@@ -1,9 +1,9 @@
-package main.java.com.sergeev.structural_pattern.wrapper;
+package main.java.com.sergeev.structural_pattern.adapter;
 
-import main.java.com.sergeev.structural_pattern.wrapper.adapter.SquarePegAdapter;
-import main.java.com.sergeev.structural_pattern.wrapper.round.RoundHole;
-import main.java.com.sergeev.structural_pattern.wrapper.round.RoundPeg;
-import main.java.com.sergeev.structural_pattern.wrapper.square.SquarePeg;
+import main.java.com.sergeev.structural_pattern.adapter.adapter.SquarePegAdapter;
+import main.java.com.sergeev.structural_pattern.adapter.round.RoundHole;
+import main.java.com.sergeev.structural_pattern.adapter.round.RoundPeg;
+import main.java.com.sergeev.structural_pattern.adapter.square.SquarePeg;
 
 public class Demo {
     public static void main(String[] args) {
