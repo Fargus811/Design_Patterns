@@ -3,6 +3,7 @@ package main.java.com.sergeev.structural_pattern.decorator.example_decorator;
 import java.io.*;
 
 public class FileDataSource implements DataSource {
+
     private String name;
 
     public FileDataSource(String name) {

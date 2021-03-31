@@ -10,6 +10,7 @@ import java.util.zip.DeflaterOutputStream;
 import java.util.zip.InflaterInputStream;
 
 public class CompressionDecorator extends DataSourceDecorator {
+
     private int compLevel = 6;
 
     public CompressionDecorator(DataSource source) {

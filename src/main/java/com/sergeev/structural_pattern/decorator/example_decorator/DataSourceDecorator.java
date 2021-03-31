@@ -2,19 +2,19 @@ package main.java.com.sergeev.structural_pattern.decorator.example_decorator;
 
 public class DataSourceDecorator implements DataSource {
 
-    private DataSource wrappee;
+    private DataSource wrapper;
 
     DataSourceDecorator(DataSource source) {
-        this.wrappee = source;
+        this.wrapper = source;
     }
 
     @Override
     public void writeData(String data) {
-        wrappee.writeData(data);
+        wrapper.writeData(data);
     }
 
     @Override
     public String readData() {
-        return wrappee.readData();
+        return wrapper.readData();
     }
 }
